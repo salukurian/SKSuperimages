@@ -45,7 +45,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		79B14E0B2224855BB1D24EFD /* Pods-SKSuperimages_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKSuperimages_Example.release.xcconfig"; path = "Target Support Files/Pods-SKSuperimages_Example/Pods-SKSuperimages_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8470F6FD8C6B852FC6EFE9CF /* Pods_SKSuperimages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKSuperimages_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D368AF688925AED9B5FDFB4D /* SKSuperimages.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SKSuperimages.podspec; path = ../SKSuperimages.podspec; sourceTree = "<group>"; };
+		D368AF688925AED9B5FDFB4D /* SKSuperimages.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SKSuperimages.podspec; path = ../SKSuperimages.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F08632B23C2FDA1182A578B9 /* Pods-SKSuperimages_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKSuperimages_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SKSuperimages_Tests/Pods-SKSuperimages_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

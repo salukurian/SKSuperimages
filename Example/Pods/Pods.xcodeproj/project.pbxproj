@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0B73901BB2A818861D4B625727EBFF39 /* Pods-SKSuperimages_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62B8185A05E0A5C1DA1674353EB55EBA /* Pods-SKSuperimages_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3429507823A813CD007559B1 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3429507723A813CD007559B1 /* UIImageViewExtensions.swift */; };
 		369CB541C59CA529D57BA85FD1FD69AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5566C1F0D4F7A671183F833332589190 /* Pods-SKSuperimages_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE97DA57720D265F3643D00E524F388 /* Pods-SKSuperimages_Tests-dummy.m */; };
 		58FFF30D0A4A74B898674CAE9EC126B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		8CF409B369C084385D64A07D52CEC398 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		9704CD3479F78866191CD877CC2C4B15 /* Pods-SKSuperimages_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC7696F0B813290BCC9606DEFDD2B4A /* Pods-SKSuperimages_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B09697579439D5DACB32588A4C1053F /* SKSuperimages-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D5C88FA3E3A69BD6AEC40BD4DCE48D /* SKSuperimages-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F58C5A84562FA7D53C33D68C099859A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DD9712DE700461D243F70533419DE /* ReplaceMe.swift */; };
 		C88A941D266F0ADC7763E31AA20AD690 /* Pods-SKSuperimages_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCB7F43E62FEC71DB30F587821351CF /* Pods-SKSuperimages_Example-dummy.m */; };
 		D936CE4CEF283438145D0D0D9B4C397F /* SKSuperimages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B0D4369765A99D38B5656D14F02184 /* SKSuperimages-dummy.m */; };
 /* End PBXBuildFile section */
@@ -45,28 +45,28 @@
 		1AC7696F0B813290BCC9606DEFDD2B4A /* Pods-SKSuperimages_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKSuperimages_Example-umbrella.h"; sourceTree = "<group>"; };
 		1C336EF896114A775327EC501050BDFB /* Pods-SKSuperimages_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKSuperimages_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		35FC682C20C276EB4DECEFA63A6CA522 /* Pods_SKSuperimages_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SKSuperimages_Example.framework; path = "Pods-SKSuperimages_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3429507723A813CD007559B1 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIImageViewExtensions.swift; path = SKSuperimages/Classes/UIImageViewExtensions.swift; sourceTree = "<group>"; };
+		35FC682C20C276EB4DECEFA63A6CA522 /* Pods_SKSuperimages_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKSuperimages_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D33976A68E9E7A2AE0BDAA0E74AF539 /* Pods-SKSuperimages_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKSuperimages_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		41B0D4369765A99D38B5656D14F02184 /* SKSuperimages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKSuperimages-dummy.m"; sourceTree = "<group>"; };
 		41D01D25EA9B74B885EBC53ECE9C8273 /* SKSuperimages.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKSuperimages.xcconfig; sourceTree = "<group>"; };
-		5F4DD9712DE700461D243F70533419DE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SKSuperimages/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		6014A462A0E3113912C265CB67BF9714 /* Pods-SKSuperimages_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKSuperimages_Example-Info.plist"; sourceTree = "<group>"; };
-		622765146F7331894570196FB72D32D1 /* SKSuperimages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKSuperimages.framework; path = SKSuperimages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		622765146F7331894570196FB72D32D1 /* SKSuperimages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKSuperimages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B8185A05E0A5C1DA1674353EB55EBA /* Pods-SKSuperimages_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKSuperimages_Tests-umbrella.h"; sourceTree = "<group>"; };
 		63D5C88FA3E3A69BD6AEC40BD4DCE48D /* SKSuperimages-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKSuperimages-umbrella.h"; sourceTree = "<group>"; };
-		63EA9489092366104930A5451F1BA7DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		63EA9489092366104930A5451F1BA7DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8B8B0E72330B78FFE4DE4943EE8B1B7B /* SKSuperimages-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKSuperimages-prefix.pch"; sourceTree = "<group>"; };
-		8DF34251B5B21556BA583C51F3350A16 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8DF34251B5B21556BA583C51F3350A16 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EA8CFA1A331142869FAE4BCC80B1F86 /* Pods-SKSuperimages_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKSuperimages_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ABE97DA57720D265F3643D00E524F388 /* Pods-SKSuperimages_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKSuperimages_Tests-dummy.m"; sourceTree = "<group>"; };
 		B13F2C3F836C2AEEABA86A91D9554F7C /* Pods-SKSuperimages_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKSuperimages_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BA5DA2EEBAEA76236D8FA34C8A8F153D /* Pods_SKSuperimages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SKSuperimages_Tests.framework; path = "Pods-SKSuperimages_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5DA2EEBAEA76236D8FA34C8A8F153D /* Pods_SKSuperimages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKSuperimages_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2CBDF9DF98D2229A29A2E8748677530 /* Pods-SKSuperimages_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SKSuperimages_Example.modulemap"; sourceTree = "<group>"; };
 		D3C9EF19325DE45F4AC92040CFCFDE77 /* SKSuperimages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKSuperimages.modulemap; sourceTree = "<group>"; };
 		D76A7D9EA48C3212361E4ED9C6BE16ED /* SKSuperimages-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SKSuperimages-Info.plist"; sourceTree = "<group>"; };
 		DCCB7F43E62FEC71DB30F587821351CF /* Pods-SKSuperimages_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKSuperimages_Example-dummy.m"; sourceTree = "<group>"; };
-		DEDEF8E123B13D614E4FA5940A06E775 /* SKSuperimages.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SKSuperimages.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DEDEF8E123B13D614E4FA5940A06E775 /* SKSuperimages.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SKSuperimages.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E17A9083FC9277C7C82401D6A7EF1C76 /* Pods-SKSuperimages_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKSuperimages_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F8B0951C0A2A7081287C1ED9FAA3038C /* Pods-SKSuperimages_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKSuperimages_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -159,9 +159,9 @@
 		B614B0DD00AB5340FD3BDFBF00D839C4 /* SKSuperimages */ = {
 			isa = PBXGroup;
 			children = (
-				5F4DD9712DE700461D243F70533419DE /* ReplaceMe.swift */,
 				F5EAD37C40206682633984F0991D6108 /* Pod */,
 				47694676488E8BBF9DCE247C1EBCC2B8 /* Support Files */,
+				3429507723A813CD007559B1 /* UIImageViewExtensions.swift */,
 			);
 			name = SKSuperimages;
 			path = ../..;
@@ -315,6 +315,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					216EC934892EFD701C6773B6AE5FABB4 = {
+						LastSwiftMigration = 1030;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -373,7 +378,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F58C5A84562FA7D53C33D68C099859A /* ReplaceMe.swift in Sources */,
+				3429507823A813CD007559B1 /* UIImageViewExtensions.swift in Sources */,
 				D936CE4CEF283438145D0D0D9B4C397F /* SKSuperimages-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 41D01D25EA9B74B885EBC53ECE9C8273 /* SKSuperimages.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -474,6 +480,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 41D01D25EA9B74B885EBC53ECE9C8273 /* SKSuperimages.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -494,6 +501,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -588,8 +596,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
