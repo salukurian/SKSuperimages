@@ -1,0 +1,16 @@
+PODS:
+  - SKSuperimages (0.1.0)
+
+DEPENDENCIES:
+  - SKSuperimages (from `../`)
+
+EXTERNAL SOURCES:
+  SKSuperimages:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SKSuperimages: 18ebfff3a33782c366bfc412b204d3e948b039ef
+
+PODFILE CHECKSUM: c8b2f5df6ae83fc841316f923bf23a213f038eb7
+
+COCOAPODS: 1.8.4
