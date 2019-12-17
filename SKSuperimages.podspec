@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SKSuperimages'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A conevience Cocoapod that extends the UIImageView Swift class'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
   s.swift_versions = '4.0'
-  s.source_files = 'SKSuperimages/Classes/**/*'
-  
+  s.source_files = 'SKSuperimages/**/*.h'
+  s.vendored_libraries = 'SKSuperimages/**/*.a'
   # s.resource_bundles = {
   #   'SKSuperimages' => ['SKSuperimages/Assets/*.png']
   # }
